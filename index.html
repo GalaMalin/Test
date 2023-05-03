@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+<div class="index">
+    <div id="all_start">
+        <div class="start">
+            <p class="start_1">Тесты</p>
+            <p class="start_2">Тест "Насколько ты наивна?"</p>
+            <div class="start_pic_">
+                <img class="start_pic" src="/lrc0ccivskc-1024x576.jpeg" alt="">
+            </div>
+            <p class="start_3">Принимаешь все за чистую монету или не позволяешь обмануть себя?</p>
+            <p class="start_4">Давай узнаем, насколько ты наивна</p>
+        </div>
+       
+        <div class="butn_start">
+            <button id="butn_start_id" class="button_start">Начать</button>
+        </div>
+    </div>
+    <div id="quiz_process" style="text-align: center; margin-top: 50px;" hidden>
+        <div class="wrapper">
+            <main class="main">
+                <div class="quiz__head">
+                    <div class="head__content" id="head_">                    
+                    </div>
+                </div>
+                <div class="quiz__body">
+                    <div class="buttons">
+                        <div class="buttons__content" id="buttons">
+                            <button class="button">Default button</button><br>
+                            <button class="button button_wrong">Wrong answer</button><br>
+                            <button class="button button_correct">Correct answer</button><br>
+                            <button class="button button_passive">Unclicked button</button><br>
+                        </div>
+                    </div>
+                    <div class="quiz__footer">
+                        <div class="footer__content" id="pages">0 / 0
+                        </div>
+                        <div class="finish">
+                            <button id="finish_btn" hidden>Спасибо!</button>
+                        </div>
+                    </div>
+                </div>
+                
+            </main>
+        </div>
+    
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,160 @@
+body, html
+{
+   width: 100%;
+   height: 100%;
+   margin: 0;
+   padding: 0;   
+   font-size: 16px;
+   font-family: helvetica, arial;   
+   color: #111;
+   background-color: #fff;   
+}
+
+button:hover {
+    opacity: 100%;
+}
+
+.start {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.start_1 {
+    font-size: 14px;
+    color: #EB6465;
+}
+
+.start_2 {
+    font-family: fantasy;
+    font-size: 32px;
+    color: brown;    
+}
+
+.start_pic {
+    width: 500px;    
+}
+
+.start_pic_ {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.butn_start {
+    text-align: center;
+}
+
+.button_start {
+    text-align: center;
+    width: 250px;
+    height: 60px;
+    margin: 50px 0;
+    padding: 10px 25px;
+    background: brown;
+    opacity: 90%;
+    color: #fff;
+    font-size: 20px;
+    border: 0;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;   
+}
+
+.wrapper
+{  
+   width: 480px;
+   height: 720px;
+   display: table;
+   background-color: #fff;   
+   border: 0;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   margin: 0 auto;
+}
+
+
+.main
+{
+   display: table-cell;
+   vertical-align: middle;
+   text-align: center;
+}
+ 
+
+ 
+.quiz__head
+{
+   font-size: 20pt;
+   margin: 10px;
+   margin-bottom: 50px;
+}
+ 
+.head__content
+{
+   padding: 5px;
+   font-size: 20px;
+   height: 100%;
+}
+ 
+.quiz__body
+{
+   margin: 10px;
+}
+ 
+.quiz__footer
+{
+   margin-top: 20%;
+   bottom: 0;
+   display: block;
+   width: 100%;
+}
+ 
+.footer__content
+{
+   padding: 5px;
+}
+ 
+.button
+{
+   border: 0;
+   border-radius: 10px;
+   background: #6477EB;
+   opacity: 90%;
+   color: #fff;
+   padding: 10px 25px;
+   width: 70%;
+   font-size: 14pt;
+   display: block;
+   margin: 10px auto;
+   cursor: pointer;
+}
+ 
+.button_wrong
+{
+   background: #EB6465;
+}
+ 
+.button_correct
+{
+   background: #5EB97D;
+}
+ 
+.button_passive
+{
+   background: #B3B3B3;
+}
+
+#finish_btn {
+    border: 0;
+    border-radius: 10px;
+    background: #6477EB;
+    opacity: 90%;
+    color: #fff;
+    padding: 10px 25px;
+    width: 70%;
+    font-size: 14pt;    
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#finish_btn:hover {
+    opacity: 100%;
+}
