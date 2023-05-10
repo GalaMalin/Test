@@ -15,6 +15,7 @@ button:hover {
 .start {
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
 }
 
 .start_1 {
@@ -29,7 +30,7 @@ button:hover {
 }
 
 .start_pic {
-    width: 350px;
+    width: 100%;
 }
 
 .start_pic_ {
@@ -59,7 +60,7 @@ button:hover {
 
 .wrapper
 {  
-   width: 390px;
+   width: 360px;
    margin: 0 auto;
    background-color: #fff;   
    border: 0;
@@ -68,6 +69,7 @@ button:hover {
 
 .main
 {
+   width: 100%;
    vertical-align: middle;
    text-align: center;
 }
@@ -76,17 +78,12 @@ button:hover {
 {   
    font-size: 20pt;
    margin: 30px 0;
-   padding: 30px 20px 0 20px;
+   padding: 20px;
    margin-bottom: 50px 0;
    font-size: 20px;
 }
  
 
-.quiz__body
-{
-   margin: 10px;
-}
- 
 .quiz__footer
 {
    margin-top: 20%;
@@ -130,7 +127,7 @@ button:hover {
 }
 
 .head__content img {
-   width: 350px;
+   width: 300px;
 }
 
 #finish_btn {
